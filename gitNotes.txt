@@ -1,0 +1,14 @@
+To get a SVN like revision nnumber use:
+	git rev-list HEAD --count
+
+
+
+Create a .gitignore file to have git disregrad filenames, can use wild cards:
+Example:
+	*.swp 
+	.*.un~ 
+	*~ 
+	donntReadThisFile.txt
+
+
+
