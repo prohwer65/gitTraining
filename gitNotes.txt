@@ -13,3 +13,48 @@ Example:
 
 
 
+git init
+
+git add . 
+
+git commit -m ""
+
+git push 
+
+git 
+
+
+
+
+Branch Naming Conventions
+Descriptive Prefixes
+    feature/      
+    bugfix/       bug fixes
+    hotfix/       critical fix
+    release/      prepare for a new release
+    docs/         modify and update doc
+
+followed by a description of the fix or feature.
+    bugfix/fix-login-issue
+    feature/add-debug-tools
+    release/ver-1.0.0
+
+
+
+Commit Messages Conventions:
+    Imperative Mood:  Start with a verb    fix:  Fix bug #3
+    Short and summarized:  Try to keep subject to less than 50 chars for tools
+
+Examples:
+feat(parser): Add the ability to parse arrays
+
+
+-Final Commit format message should look like the following:
+  <type>([optional scope]): <description>  # subject
+
+  [optional body]
+
+  [optional footer(s)]
+https://www.conventionalcommits.org/en/v1.0.0/#examples
+https://dev.to/shinjithdev/git-good-best-practices-for-branch-naming-and-commit-messages-oj4
+
